@@ -13,12 +13,15 @@ int main() {
 }
 
 class Animal{
+
 private:
     string name;
     int weight;
+
 public:
     Animal(const string &name, int weight) : name(name), weight(weight) {
 
     }
+
 
 };
